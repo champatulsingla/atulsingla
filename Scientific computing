@@ -1,1 +1,13 @@
+#python code 
+
+import numpy as np
+
+s = np.arange(0.0,1.1,.1)
+print(s)
+
+for x in s:
+  y = 2.0 + 1.5*x - 0.8 * (x**2) +0.6*(x**3) 
+
+  print(y)
+
 
